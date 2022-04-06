@@ -1,0 +1,31 @@
+.pokemonCard>img {
+    width: 8em;
+    box-sizing: border-box;
+    
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 60em;
+    
+}
+.pokemonCard {
+    width: 15em;
+    height: 15em;
+    text-align: center;
+    background-color: aquamarine;
+    border: solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.pokemonCard p {
+    background-color: rgb(95, 48, 138);
+    width: 100%;
+    color: beige;
+}

@@ -1,0 +1,17 @@
+* {
+  padding: auto;
+  text-align: center;
+  margin: 0;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+#header, 
+#footer {
+  background-color: rgb(41, 41, 136);
+  padding: 2em;
+  color: aliceblue;
+}
